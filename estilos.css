@@ -8,15 +8,15 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin-top: 2em;
-    font-size: 5vw;
+    font-size: 2em;
     
 
 }
 .divcrear{
     display: flex;
     justify-content: center;
-    height: 6vh;
-    min-height: 10vw;
+    max-height: 5em;
+    min-height: 3em;
     
 }
 
