@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: rgba(128, 128, 128, 0.167);
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 4em;
+    font-size: 5vmin;
+
+}
+.divcrear{
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    
+}
+
+.divcrear input{
+    width: 60%;
+    border-radius: 0.5em 0em 0em 0.5em;
+    border: none;
+    outline: none;
+    padding-left: 1em;
+    box-shadow: rgba(0, 0, 0, 0) 0px 10px 20px, rgba(0, 0, 0, 0.108) 0px 6px 6px;
+}
+
+.divcrear button{
+    background-color: rgba(24, 134, 189, 0.607);
+    border-radius: 0em 0.5em 0.5em 0em;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0) 0px 10px 20px, rgba(0, 0, 0, 0.108) 0px 6px 6px;
+}
+
+
+.tablon ul li img{
+   
+   width: 1.5em;
+   height: 1.5em;
+   margin-right: 1em;
+}
+
+li{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin-bottom: 1em;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vmax;
+    padding-left: 1em;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.086) 0px 10px 20px, rgba(0, 0, 0, 0.108) 0px 6px 6px;
+}
+.divp{
+    width: 95%;
+}
+.botonesaccion{
+    float: right;
+}
+
+
+
+.tablon ul{
+min-width: 80%;
+max-width: 80%;
+padding-inline-start: 0px;
+}
+
+.tablon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vmin;
+}
+
+.activado{
+    background-color: rgb(66, 227, 123);
+    color: white;
+    margin-bottom: 1em;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vmax;
+    padding-left: 1em;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.086) 0px 10px 20px, rgba(0, 0, 0, 0.108) 0px 6px 6px;
+}
